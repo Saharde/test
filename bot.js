@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-var facts = ["חיחי מוות",
+var facts = ["חיחי מוות"
              ];
 
 bot.on('ready', () => {
