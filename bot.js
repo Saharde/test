@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 const bot = new Discord.Client();
 
-var facts = ["אני מוח גדול גדול",
+var facts = ["חיחייייייייייי",
              "אני בוגו ואני מגניב!",
              "תפסיק, בבקשה אני מתחנן",
              "*-קולות של מקלדת מכנית-*",
