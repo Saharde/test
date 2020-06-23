@@ -41,6 +41,9 @@ bot.on('message', message => {
   else if(message.content == "יזין") {
   message.channel.send("שתעק יבן זיני");
   }
+  else if(message.content == "יזין fucking bot") {
+  message.channel.send("שתעק יבן זיני");
+  }
   else if(message.content == "שלום") {
   message.channel.send("היי");
   }
@@ -89,6 +92,9 @@ bot.on('message', message => {
   else if(message.content.includes("נעלבתי ממך")) {
   message.channel.send("מדוע?");
   }
+   else if(message.content.includes("העלבת אותי")) {
+  message.channel.send("מדוע?");
+  }
   else if(message.content.includes("ממצב")) {
   message.channel.send("סמיילי מאוהב.");
   }
@@ -106,6 +112,9 @@ bot.on('message', message => {
   }
     else if(message.content == "יש פה סקאמר") {
   message.channel.send("בונאה הסקאמר בן זונה הוא מוצץ זין מזדיין בתחת של אנטישמי בן זה מזדיין שרואה פורנו והנטאי הזין הבן זונה הזה.");
+  }
+  else if(message.content == "תשיר לי שיר") {
+  message.channel.send("שניצל זה טעים, שניצל סה טעים יו! דניצל זה טעים! ט ט ט עים!");
   }
 });
 
