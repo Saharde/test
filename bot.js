@@ -104,6 +104,9 @@ bot.on('message', message => {
    else if(message.content == "אריאל") {
   message.channel.send("אריאל פרו רצח בפורטנייט");
   }
+    else if(message.content == "יש פה סקאמר") {
+  message.channel.send("בונאה הסקאמר בן זונה הוא מוצץ זין מזדיין בתחת של אנטישמי בן זה מזדיין שרואה פורנו והנטאי הזין הבן זונה הזה.");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
