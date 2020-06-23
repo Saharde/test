@@ -101,6 +101,9 @@ bot.on('message', message => {
   else if(message.content == ":heart:") {
   message.channel.send("גם אני אוהב אותך אבא! :heart:");
   }
+   else if(message.content == ":heart:") {
+  message.channel.send("גם אני אוהב אותך אבא! :heart:");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
