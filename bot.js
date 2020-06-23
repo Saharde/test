@@ -38,8 +38,8 @@ bot.on('message', message => {
   else if(message.content.includes("אנימה")) {
   message.channel.send("אנימה = איך נרוויח יין מהנטאי");
   }
-  else if(message.content == "בוגו") {
-  message.channel.send("מה אתה רוצה?");
+  else if(message.content == "יזין") {
+  message.channel.send("שתעק יבן זיני");
   }
   else if(message.content == "שלום") {
   message.channel.send("היי");
@@ -47,8 +47,8 @@ bot.on('message', message => {
   else if(message.content.includes("בוקר טוב")) {
   message.channel.send("ערב טוב");
   }
-  else if(message.content.includes("ביי")) {
-  message.channel.send("אין ביי זה היום!");
+  else if(message.content.includes("ככה")) {
+  message.channel.send("כובע");
   }
   else if(message.content == "בי") {
   message.channel.send("ביי*");
@@ -78,7 +78,7 @@ bot.on('message', message => {
   message.channel.send("אכן כן.");
   }
   else if(message.content.includes("XD")) {
-  message.channel.send("תפסיקו לצחוק עליי בבקשה...");
+  message.channel.send("תפסיק לצחוק עליי בבקשה...");
   }
   else if(message.content.includes("פורטנייט")) {
   message.channel.send("פורטנייט נהרס בגלל הילדים בני 9 עם הידיים המנוזלות שלהם");
