@@ -16,7 +16,7 @@ var facts = ["חיחייייייייייי",
              "אבא שלי חרא אליי לפעמים",
              "תעזרו, לי...",
              "*אני בוט חתיך! לילילי לי לי לילי!*",
-             "שום שן הוא מגניב אחושרמוטה?"
+             "שום שן הוא מגניב אחושרמוטה"
              ];
 
 bot.on('ready', () => {
@@ -74,8 +74,8 @@ bot.on('message', message => {
   else if(message.content.includes("היי")) {
   message.channel.send("ביי -_-");
   }
-  else if(message.content.includes("להרוג")) {
-  message.channel.send("אל תהרוג אותו! זה אשמתי!!");
+  else if(message.content.includes("אתה מטומטם?")) {
+  message.channel.send("אכן כן.");
   }
   else if(message.content.includes("XD")) {
   message.channel.send("תפסיקו לצחוק עליי בבקשה...");
