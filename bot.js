@@ -101,8 +101,8 @@ bot.on('message', message => {
   else if(message.content == ":heart:") {
   message.channel.send("גם אני אוהב אותך אבא! :heart:");
   }
-   else if(message.content == ":heart:") {
-  message.channel.send("גם אני אוהב אותך אבא! :heart:");
+   else if(message.content == "אריאל") {
+  message.channel.send("אריאל פרו רצח בפורטנייט");
   }
 });
 
