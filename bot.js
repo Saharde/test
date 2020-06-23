@@ -71,8 +71,8 @@ bot.on('message', message => {
   else if(message.content.includes("חמוד")) {
   message.channel.send("למי אתה קורא חמוד?");
   }
-  else if(message.content.includes("פוקסי")) {
-  message.channel.send("פוקסי בטח בוכה במיטה שלו, לא איכפת לי!");
+  else if(message.content.includes("היי")) {
+  message.channel.send("ביי -_-");
   }
   else if(message.content.includes("להרוג")) {
   message.channel.send("אל תהרוג אותו! זה אשמתי!!");
@@ -86,11 +86,11 @@ bot.on('message', message => {
   else if(message.content.includes("מיקמק")) {
   message.channel.send("הולך למות ב 1.12.2020");
   }
-  else if(message.content.includes("אנימה")) {
-  message.channel.send("זה גרוע... אני הולך לקבל באן עכשיו?");
+  else if(message.content.includes("נעלבתי ממך")) {
+  message.channel.send("מדוע?");
   }
-  else if(message.content.includes("פנאפ")) {
-  message.channel.send("נשמע יותר טוב באנגלית...");
+  else if(message.content.includes("ממצב")) {
+  message.channel.send("סמיילי מאוהב.");
   }
   else if(message.content.includes("fnaf")) {
   message.channel.send("זה די טוב כי סקוט משקיע");
