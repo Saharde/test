@@ -116,6 +116,9 @@ bot.on('message', message => {
   else if(message.content == "תשיר לי שיר") {
   message.channel.send("שניצל זה טעים, שניצל זה טעים יו! שניצל זה טעים! ט ט טעים!");
   }
+  else if(message.content == "מי רוצה לשחק?") {
+  message.channel.send("הייתי שמח לשמחק איתך, אך אני בוט (:");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
