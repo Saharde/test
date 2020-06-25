@@ -4,16 +4,16 @@ const bot = new Discord.Client();
 
 var facts = ["חיחייייייייייי",
              "אני בוט ואני מגניב!",
-             "תפסיק, בבקשה אני מתחנן",
-             "*-קולות של מקלדת מכנית-*",
+             "תפסיק לתייג אותי!!!",
+             "*באמשך תםסיק לתייג אותי-*",
              "סהר הוא גיימר מגניב",
              "לך לעזעזל",
              "אני הכי מגניב בשרת!",
              "אהלן סאקר",
-             "אבא שלי ממש משוגע לפעמים",
-             "לאבא שלי יש בעיות מנטליות",
+             "מה אחי?",
+             "אתה בטח מתייג אותי כי אתה בדד (בדדדדד אלךךךךךךךךךךך)",
              "מיקמק זה גמניב יו יו",
-             "אבא שלי חרא אליי לפעמים",
+             "אל תתיג אותי אני אקרא ל MEE6 שיעזור לי",
              "תעזרו, לי...",
              "*אני בוט חתיך! לי לילי לי לי לילי!*",
              "שום שן הוא מגניב אחושרמוטה"
@@ -22,7 +22,7 @@ var facts = ["חיחייייייייייי",
 bot.on('ready', () => {
 
     console.log('I am ready!');
-    bot.user.setActivity("אבא שלי הוא Saharde!!!!", { type: 'PLAYING' });
+    bot.user.setActivity("My datd is Saharde!!!!", { type: 'PLAYING' });
 
 });
 
@@ -63,7 +63,7 @@ bot.on('message', message => {
   message.channel.send("Saharde");
   }
   else if(message.content == "חח") {
-  message.channel.send("על מה אתה צוחק?!?");
+  message.channel.send("חה חה צחוק מזוייף?!?");
   }
   else if(message.content.includes("קראש")) {
   message.channel.send("יאאא יש למישהו קראש! חיחי");
@@ -90,7 +90,7 @@ bot.on('message', message => {
   message.channel.send("הולך למות ב 1.12.2020");
   }
   else if(message.content.includes("נעלבתי ממך")) {
-  message.channel.send("מדוע?");
+  message.channel.send("למה?");
   }
    else if(message.content.includes("העלבת אותי")) {
   message.channel.send("מדוע?");
@@ -98,8 +98,8 @@ bot.on('message', message => {
   else if(message.content.includes("ממצב")) {
   message.channel.send("סמיילי מאוהב.");
   }
-  else if(message.content.includes("fnaf")) {
-  message.channel.send("זה די טוב כי סקוט משקיע");
+  else if(message.content.includes("אהלן")) {
+  message.channel.send("וסהלן");
   }
   else if(message.content.includes("סבמבה")) {
   message.channel.send("כל הזכויות על המילה סבמבה שמורות לסהר");
@@ -111,7 +111,7 @@ bot.on('message', message => {
   message.channel.send("אריאל פרו רצח בפורטנייט");
   }
     else if(message.content == "יש פה סקאמר") {
-  message.channel.send("בונאה הסקאמר בן זונה הוא מוצץ זין מזדיין בתחת של אנטישמי בן זה מזדיין שרואה פורנו והנטאי הזין הבן זונה הזה.");
+  message.channel.send("בונאה הסקאמר בן זונה הוא מוצץ זין מזדיין בתחת של אנטישמי בן זונה מזדיין שרואה פורנו והנטאי הזין הבן זונה הזה.");
   }
   else if(message.content == "תשיר לי שיר") {
   message.channel.send("שניצל זה טעים, שניצל זה טעים יו! שניצל זה טעים! ט ט טעים!");
