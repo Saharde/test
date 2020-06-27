@@ -22,7 +22,7 @@ var facts = ["חיחייייייייייי",
 bot.on('ready', () => {
 
     console.log('I am ready!');
-    bot.user.setActivity("My datd is Saharde!!!!", { type: 'PLAYING' });
+    bot.user.setActivity("My datd is TheNightFuryMEE6!!!!", { type: 'PLAYING' });
 
 });
 
