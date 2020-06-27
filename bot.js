@@ -41,8 +41,8 @@ bot.on('message', message => {
   else if(message.content == "יזין") {
   message.channel.send("שתעק יבן זיני");
   }
-  else if(message.content == "יזין fucking bot") {
-  message.channel.send("שתעק יבן זיני");
+  else if(message.content == "אתה יפה") {
+  message.channel.send("תודה רבה תמיד חלמתי להיות דוגמן");
   }
   else if(message.content == "שלום") {
   message.channel.send("היי");
