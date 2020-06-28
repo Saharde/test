@@ -119,6 +119,9 @@ bot.on('message', message => {
   else if(message.content == "מי רוצה לשחק?") {
   message.channel.send("הייתי שמח לשחק איתך, אך אני בוט (:");
   }
+   else if(message.content == "99% מנגני הגיטרה הם כאלה") {
+  message.channel.send("https://www.youtube.com/watch?v=lyH7ykZyXQA");
+  }
 });
 
 bot.login(process.env.BOT_TOKEN);
